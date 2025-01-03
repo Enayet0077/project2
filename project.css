@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo{
+    width: 200px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(245, 225, 187);
+    padding: 10px;
+    padding-right: 500px;
+}
+li{
+    list-style: none;
+}
+.menu-container{
+    display: flex;
+    gap: 30px;
+    padding-left: 300px;
+}
+li:hover{
+    color: rgb(0, 4, 255);
+    cursor: pointer;
+}
+.search-btn{
+    align-items: center;
+    background-color: rgb(241, 97, 210);
+    padding: 2px;
+
+}
+.main-container{
+    display: flex;
+    justify-content: space-around;
+}
+.cart-container{
+    width: 50%;
+    box-shadow: 4px 4px 8px rgb(7, 211, 143);
+    margin: auto;
+    text-align: center;
+}
+.product-contaainer{
+    display: flex;
+    justify-content: space-around;
+flex-wrap: wrap;
+gap: 15px;
+width: 100%;
+margin: auto;
+text-align: center;
+}
+.cart{
+    border: 1px  solid gray;
+    padding: 10PX;
+}
+.catr-img{
+    width: 50%;
+}
+#product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 16px;
+    background-color: white;
+}
+
+#product-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 16px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    background-color:white;
+    box-shadow: 4px 4px 8px gray;
+    transition: transform 0.2s;
+}
+
+#product-container div:hover {
+    transform: translateY(-5px);
+    box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#product-container div img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+#product-container div h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin: 8px 0;
+    text-align: center;
+}
+
+#product-container div p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+#product-container div button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    color:white;
+    background-color: #04772a;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background-color 0.3s;
+}
+
+#product-container div button:hover {
+    background-color: rgb(red, green, blue);
+}
+.cart-iinfo{
+    display: flex;
+}
+.banner-container{
+    justify-content: center;
+  
+}
